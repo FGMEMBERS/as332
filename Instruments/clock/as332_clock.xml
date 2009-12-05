@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>as332_clock.ac</path>
+
+ <animation>
+  <type>material</type>
+  <object-name>Face</object-name>
+  <object-name>SecondHand</object-name>
+  <object-name>MinuteHand</object-name>
+  <object-name>HourHand</object-name>
+  <emission>
+   <red>1.0</red>
+   <green>0.2</green>
+   <blue>0.0</blue>
+   <factor-prop>/sim/model//material/instruments/factor</factor-prop>
+  </emission>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>SecondHand</object-name>
+  <property>/sim/time/utc/day-seconds</property>
+  <factor>6</factor>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+  		<center>
+            <x-m>-4.104</x-m>
+            <y-m>0.231</y-m>
+            <z-m>0.433</z-m>
+        </center>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>MinuteHand</object-name>
+  <property>/sim/time/utc/day-seconds</property>
+  <factor>0.1</factor>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+   <center>
+            <x-m>-4.104</x-m>
+            <y-m>0.231</y-m>
+            <z-m>0.433</z-m>
+   </center>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>HourHand</object-name>
+  <property>/sim/time/utc/day-seconds</property>
+  <factor>0.008333</factor>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+    	<center>
+            <x-m>-4.104</x-m>
+            <y-m>0.231</y-m>
+            <z-m>0.433</z-m>
+        </center>
+ </animation>
+
+</PropertyList>
+
+

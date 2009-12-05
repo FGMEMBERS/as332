@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>as332_vsi.ac</path>
+
+ <animation>
+  <type>material</type>
+  <object-name>vsi_face</object-name>
+  <object-name>vsi_needle</object-name>
+  <emission>
+   <red>1.0</red>
+   <green>0.2</green>
+   <blue>0.0</blue>
+   <factor-prop>/sim/model//material/instruments/factor</factor-prop>
+  </emission>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>vsi_needle</object-name>
+  <property>/instrumentation/vertical-speed-indicator/indicated-speed-fpm</property>
+  <interpolation>
+   <entry><ind>  -3000.0</ind><dep>-180</dep></entry>
+   <entry><ind>  -2000.0</ind><dep>-120.6</dep></entry>
+   <entry><ind>  -1500.0</ind><dep> -90</dep></entry>
+   <entry><ind>  -1000.0</ind><dep> -56.6</dep></entry>
+   <entry><ind>   -500.0</ind><dep> -25.6</dep></entry>
+   <entry><ind>      0.0</ind><dep>   0.0</dep></entry>
+   <entry><ind>    500.0</ind><dep>  25.6</dep></entry>
+   <entry><ind>   1000.0</ind><dep>  56.6</dep></entry>
+   <entry><ind>   1500.0</ind><dep> 90</dep></entry>
+   <entry><ind>   2000.0</ind><dep> 120.6</dep></entry>
+   <entry><ind>   2000.0</ind><dep> 180</dep></entry>
+  </interpolation> 
+  <center>
+      <x-m>-4.102</x-m>
+       <y-m>0.589</y-m>
+       <z-m>0.593</z-m>
+  </center>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+</PropertyList>
+
+
