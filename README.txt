@@ -1,4 +1,4 @@
-README Aerospatiale AS332-L1, updated Version v20091126
+README Aerospatiale AS332-L1, updated Version v20091214
 
 GNU/GPL 2
 
@@ -23,6 +23,10 @@ Callsign: HB-GRAL
 Forum: gral
 You will find me here: LSMA, LSZH, KSFO, Nimitz ...
 Most of time on AS332, BO105, EC135, UH-1
+
+Version v20091214:
+- FDM: Important changes in fuselage, ballast, rotors, gears
+- checked FDM with script from Melchior Franz (FDM blender import) HUH!
 
 Version v20091126:
 - changed FDM to more "reasonable" values

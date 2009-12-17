@@ -1,21 +1,21 @@
 AC3Db
 MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
-MATERIAL "metall_dunkler" rgb 0.107114 0.106888 0.106888 amb 1 1 1 emis 0 0 0 spec 1 1 1 shi 72 trans 0
-MATERIAL "dunkelgrau" rgb 0.172034 0.175531 0.145464 amb 0.500365 0.500365 0.500365 emis 0 0 0 spec 0 0 0 shi 72 trans 0
-MATERIAL "konsole_body" rgb 0.136366 0.123261 0.123261 amb 0.5 0.5 0.5 emis 0 0 0 spec 0 0 0 shi 72 trans 0
-MATERIAL "metall" rgb 0.192051 0.190142 0.190142 amb 1 1 1 emis 0 0 0 spec 1 1 1 shi 72 trans 0
-MATERIAL "titan" rgb 0.214696 0.214243 0.214243 amb 0.5 0.5 0.5 emis 0 0 0 spec 0 0 0 shi 72 trans 0
-MATERIAL "schwarz" rgb 0 0 0 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 72 trans 0
-MATERIAL "seats_grau" rgb 0.316524 0.315857 0.315857 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 72 trans 0
-MATERIAL "sandfilter" rgb 0.802168 0.629439 0.387741 amb 0 0 0 emis 0 0 0 spec 1 1 1 shi 72 trans 0.435051
-MATERIAL "135erGlas" rgb 0.42 0.42 0.42 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 72 trans 0.5
-MATERIAL "glas_rot" rgb 1 0 0 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 72 trans 0.509631
+MATERIAL "metall_dunkler" rgb 0.107114 0.106888 0.106888 amb 0.107114 0.106888 0.106888 emis 0 0 0 spec 1 1 1 shi 72 trans 0
+MATERIAL "dunkelgrau" rgb 0.172034 0.175531 0.145464 amb 0.172034 0.175531 0.145464 emis 0 0 0 spec 0 0 0 shi 72 trans 0
+MATERIAL "konsole_body" rgb 0.136366 0.123261 0.123261 amb 0.136366 0.123261 0.123261 emis 0 0 0 spec 0 0 0 shi 72 trans 0
+MATERIAL "metall" rgb 0.192051 0.190142 0.190142 amb 0.192051 0.190142 0.190142 emis 0 0 0 spec 1 1 1 shi 72 trans 0
+MATERIAL "titan" rgb 0.214696 0.214243 0.214243 amb 0.214696 0.214243 0.214243 emis 0 0 0 spec 0 0 0 shi 72 trans 0
+MATERIAL "schwarz" rgb 0 0 0 amb 0 0 0 emis 0 0 0 spec 1 1 1 shi 72 trans 0
+MATERIAL "seats_grau" rgb 0.316524 0.315857 0.315857 amb 0.316524 0.315857 0.315857 emis 0 0 0 spec 1 1 1 shi 72 trans 0
+MATERIAL "sandfilter" rgb 0.802168 0.629439 0.387741 amb 0.802168 0.629439 0.387741 emis 0 0 0 spec 1 1 1 shi 72 trans 0.435051
+MATERIAL "glas" rgb 0.42 0.42 0.42 amb 0.42 0.42 0.42 emis 0 0 0 spec 1 1 1 shi 72 trans 0.5
+MATERIAL "glas_rot" rgb 1 0 0 amb 1 0 0 emis 0 0 0 spec 1 1 1 shi 72 trans 0.509631
 MATERIAL "DefaultWhite.023" rgb 1 1 1 amb 1 1 1 emis 0 0 0 spec 1 1 1 shi 72 trans 0
 MATERIAL "DefaultWhite.024" rgb 1 1 1 amb 1 1 1 emis 0 0 0 spec 1 1 1 shi 72 trans 0
-MATERIAL "glas_gruen" rgb 0 1 0.415686 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 72 trans 0.509631
-MATERIAL "Material.048" rgb 1 1 1 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 72 trans 0
-MATERIAL "Material.072" rgb 0.9 0.9 1 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 72 trans 0
-MATERIAL "konsole_platte" rgb 0.180392 0.172549 0.172549 amb 0.5 0.5 0.5 emis 0 0 0 spec 0 0 0 shi 72 trans 0
+MATERIAL "glas_gruen" rgb 0 1 0.415686 amb 0 1 0.415686 emis 0 0 0 spec 1 1 1 shi 72 trans 0.509631
+MATERIAL "Material.048" rgb 1 1 1 amb 1 1 1 emis 0 0 0 spec 1 1 1 shi 72 trans 0
+MATERIAL "Material.072" rgb 0.9 0.9 1 amb 0.9 0.9 1 emis 0 0 0 spec 1 1 1 shi 72 trans 0
+MATERIAL "konsole_platte" rgb 0.180392 0.172549 0.172549 amb 0.180392 0.172549 0.172549 emis 0 0 0 spec 0 0 0 shi 72 trans 0
 OBJECT world
 kids 180
 OBJECT poly
