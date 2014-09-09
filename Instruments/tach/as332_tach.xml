@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+	<path>as332_tach.ac</path>
+	<animation>
+		<type>rotate</type>
+		<object-name>RotorNeedle</object-name>
+		<property>rotors/main/rpm</property>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>194</dep>
+			</entry>
+			<entry>
+				<ind>26</ind>
+				<dep>224</dep>
+			</entry>
+			<entry>
+				<ind>54</ind>
+				<dep>254</dep>
+			</entry>
+			<entry>
+				<ind>82</ind>
+				<dep>284</dep>
+			</entry>
+			<entry>
+				<ind>110</ind>
+				<dep>315</dep>
+			</entry>
+			<entry>
+				<ind>138</ind>
+				<dep>345</dep>
+			</entry>
+			<entry>
+				<ind>166</ind>
+				<dep>375</dep>
+			</entry>
+			<entry>
+				<ind>194</ind>
+				<dep>406</dep>
+			</entry>
+			<entry>
+				<ind>222</ind>
+				<dep>436</dep>
+			</entry>
+			<entry>
+				<ind>250</ind>
+				<dep>466</dep>
+			</entry>
+			<entry>
+				<ind>278</ind>
+				<dep>495</dep>
+			</entry>
+			<entry>
+				<ind>999</ind>
+				<dep>500</dep>
+			</entry>
+			
+		</interpolation>
+		<center>
+            <x-m>-4.099</x-m>
+            <y-m>0.375</y-m>
+            <z-m>0.584</z-m>
+        </center>
+
+		<axis>
+			<x>-1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+
+	</animation>
+	
+	
+	<animation>
+		<type>rotate</type>
+		<object-name>TurbineNeedle1</object-name>
+		<property>engines/engine[0]/n2-pct</property>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>194</dep>
+			</entry>
+			<entry>
+				<ind>50</ind>
+				<dep>326</dep>
+			</entry>
+			<entry>
+				<ind>100</ind>
+				<dep>400</dep>
+			</entry>
+			
+		</interpolation>
+		<center>
+            <x-m>-4.099</x-m>
+            <y-m>0.375</y-m>
+            <z-m>0.584</z-m>
+        </center>
+
+		<axis>
+			<x>-1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+
+	</animation>
+	
+	<animation>
+		<type>rotate</type>
+		<object-name>TurbineNeedle2</object-name>
+		<property>engines/engine[1]/n2-pct</property>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>194</dep>
+			</entry>
+			<entry>
+				<ind>50</ind>
+				<dep>326</dep>
+			</entry>
+			<entry>
+				<ind>100</ind>
+				<dep>400</dep>
+			</entry>
+			
+		</interpolation>
+		<center>
+            <x-m>-4.099</x-m>
+            <y-m>0.375</y-m>
+            <z-m>0.584</z-m>
+        </center>
+
+		<axis>
+			<x>-1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+
+	</animation>
+</PropertyList>
+
+
+

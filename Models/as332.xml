@@ -1,0 +1,533 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+	<path>as332.ac</path>
+
+	<offsets>
+		<z-m>0.05</z-m>
+		<y-m>0</y-m>
+		<x-m>0</x-m>
+		<pitch-deg>0.3</pitch-deg>
+	</offsets>
+
+
+	<!-- main rotor group -->
+	
+	<animation>
+		<name>mainrotors</name>
+		<object-name>blade01</object-name>
+		<object-name>blade01a</object-name>
+		<object-name>blade01b</object-name>
+		<object-name>blade01c</object-name>
+		<object-name>blade01d</object-name>
+		<object-name>blade02</object-name>
+		<object-name>blade02a</object-name>
+		<object-name>blade02b</object-name>
+		<object-name>blade02c</object-name>
+		<object-name>blade02d</object-name>
+		<object-name>blade03</object-name>
+		<object-name>blade03a</object-name>
+		<object-name>blade03b</object-name>
+		<object-name>blade03c</object-name>
+		<object-name>blade03d</object-name>
+		<object-name>blade04</object-name>
+		<object-name>blade04a</object-name>
+		<object-name>blade04b</object-name>
+		<object-name>blade04c</object-name>
+		<object-name>blade04d</object-name>
+	</animation>
+
+<!-- tail rotor group -->
+	
+	<animation>
+		<name>tailrotors</name>
+		<object-name>tailblade01</object-name>
+		<object-name>tailblade02</object-name>
+		<object-name>tailblade03</object-name>
+		<object-name>tailblade04</object-name>
+		<object-name>tailblade05</object-name>
+	</animation>
+
+
+<!-- main rotor animation blurred -->
+
+
+	<animation>
+		<type>material</type>
+		<object-name>blurred01</object-name>
+		<object-name>blurred02</object-name>
+		<object-name>blurred03</object-name>
+		<object-name>blurred04</object-name>
+		<transparency>
+			<alpha-prop>rotors/main/rpm</alpha-prop>
+			<factor>0.002</factor>
+			<offset>-0.25</offset>
+			<max>0.4</max>
+		</transparency>
+		<threshold>0.001</threshold>
+	</animation>
+
+
+	<animation>
+		<type>select</type>
+		<object-name>mainrotors</object-name>
+		<condition>
+			<less-than>
+				<property>rotors/main/rpm</property>
+				<value>175</value>
+			</less-than>
+		</condition>
+	</animation>
+	
+
+	<animation>
+		<type>spin</type>
+		<object-name>blurred01</object-name>
+		<object-name>blurred02</object-name>
+		<object-name>blurred03</object-name>
+		<object-name>blurred04</object-name>
+		<property>rotors/main/rpm</property>
+		<axis>
+			<x>30</x>
+			<y>0</y>
+			<z>-360</z>
+		</axis>
+		<center>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>3.212</z-m>
+		</center>
+	</animation>
+	
+	<animation>
+		<type>noshadow</type>
+		<object-name>blurred01</object-name>
+		<object-name>blurred02</object-name>
+		<object-name>blurred03</object-name>
+		<object-name>blurred04</object-name>
+	</animation>
+
+
+<!-- main rotor blade grips -->
+
+	<animation>
+		<type>spin</type>
+		<object-name>bladegrip01</object-name>
+		<object-name>bladegrip02</object-name>
+		<object-name>bladegrip03</object-name>
+		<object-name>bladegrip04</object-name>
+		<property>rotors/main/rpm</property>
+		<axis>
+			<x>30</x>
+			<y>0</y>
+			<z>-360</z>
+		</axis>
+		<center>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>3.212</z-m>
+		</center>
+	</animation>
+	
+	
+<!-- main rotor blades -->
+
+
+	<animation>
+		<type>material</type>
+		<object-name>mainrotors</object-name>
+		<!-- <global type="bool">true</global>-->
+		<transparency>
+			<alpha-prop>rotors/main/rpm</alpha-prop>
+			<factor>-0.0050</factor>
+			<offset>1</offset>
+			<max>1</max>
+		</transparency>
+	</animation>
+
+	<animation>
+		<type>spin</type>
+		<object-name>blade01</object-name>
+		<object-name>blade01a</object-name>
+		<object-name>blade01b</object-name>
+		<object-name>blade01c</object-name>
+		<object-name>blade01d</object-name>
+		<property>rotors/main/rpm</property>
+		<axis>
+			<x>30</x>
+			<y>0</y>
+			<z>-360</z>
+		</axis>
+		<center>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>3.212</z-m>
+		</center>
+	</animation>
+	
+	<animation>
+		<type>spin</type>
+		<object-name>blade02</object-name>
+		<object-name>blade02a</object-name>
+		<object-name>blade02b</object-name>
+		<object-name>blade02c</object-name>
+		<object-name>blade02d</object-name>
+		<property>rotors/main/rpm</property>
+		<axis>
+			<x>30</x>
+			<y>0</y>
+			<z>-360</z>
+		</axis>
+		<center>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>3.212</z-m>
+		</center>
+	</animation>
+	
+	<animation>
+		<type>spin</type>
+		<object-name>blade03</object-name>
+		<object-name>blade03a</object-name>
+		<object-name>blade03b</object-name>
+		<object-name>blade03c</object-name>
+		<object-name>blade03d</object-name>
+		<property>rotors/main/rpm</property>
+		<axis>
+			<x>30</x>
+			<y>0</y>
+			<z>-360</z>
+		</axis>
+		<center>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>3.212</z-m>
+		</center>
+	</animation>
+	
+	<animation>
+		<type>spin</type>
+		<object-name>blade04</object-name>
+		<object-name>blade04a</object-name>
+		<object-name>blade04b</object-name>
+		<object-name>blade04c</object-name>
+		<object-name>blade04d</object-name>
+		<property>rotors/main/rpm</property>
+		<axis>
+			<x>30</x>
+			<y>0</y>
+			<z>-360</z>
+		</axis>
+		<center>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>3.212</z-m>
+		</center>
+	</animation>
+	
+<!-- tail rotor blades -->
+
+<animation>
+		<type>material</type>
+		<object-name>tailrotordisc</object-name>
+		<transparency>
+			<alpha-prop>rotors/main/rpm</alpha-prop>
+			<factor>0.002</factor>
+			<offset>-0.25</offset>
+			<max>0.4</max>
+		</transparency>
+		<threshold>0.001</threshold>
+	</animation>
+
+
+	<animation>
+		<type>select</type>
+		<object-name>tailrotors</object-name>
+		<condition>
+			<less-than>
+				<property>rotors/main/rpm</property>
+				<value>175</value>
+			</less-than>
+		</condition>
+	</animation>
+	
+
+	<animation>
+		<type>spin</type>
+		<object-name>tailrotordisc</object-name>
+		<property>rotors/main/rpm</property>
+		<axis>
+			<x>0</x>
+			<y>-360</y>
+			<z>0</z>
+		</axis>
+		<center>
+			<x-m>9.597</x-m>
+			<y-m>0.479</y-m>
+			<z-m>2.522</z-m>
+		</center>
+	</animation>
+	
+	<animation>
+		<type>noshadow</type>
+		<object-name>tailrotordisc</object-name>
+	</animation>
+	
+	<animation>
+		<type>material</type>
+		<object-name>tailrotors</object-name>
+		<!--<global type="bool">true</global>-->
+		<transparency>
+			<alpha-prop>rotors/main/rpm</alpha-prop>
+			<factor>-0.0050</factor>
+			<offset>1</offset>
+			<max>1</max>
+		</transparency>
+	</animation>
+
+	<animation>
+		<type>spin</type>
+		<object-name>tailblade01</object-name>
+		<object-name>tailblade02</object-name>
+		<object-name>tailblade03</object-name>
+		<object-name>tailblade04</object-name>
+		<object-name>tailblade05</object-name>
+		<property>rotors/main/rpm</property>
+		<axis>
+			<x>0</x>
+			<y>-360</y>
+			<z>0</z>
+		</axis>
+		<center>
+			<x-m>9.597</x-m>
+			<y-m>0.479</y-m>
+			<z-m>2.522</z-m>
+		</center>
+	</animation>
+
+
+<!-- beacon tail -->
+
+	<animation>
+		<name>beacontail</name>
+		<object-name>beacon_tail_01</object-name>
+		<object-name>beacon_tail_02</object-name>
+		<object-name>beacon_tail_03</object-name>
+		<object-name>beacon_tail_04</object-name>
+		<object-name>beacon_tail_05</object-name>
+		<object-name>beacon_tail_06</object-name>
+		<object-name>beacon_tail_07</object-name>
+		<object-name>beacon_tail_08</object-name>
+		<object-name>beacon_tail_09</object-name>
+		<object-name>beacon_tail_10</object-name>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<object-name>beacontail</object-name>
+		<condition>
+			<property>/sim/model/as332/lighting/beacon-top/state</property>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>material</type>
+		<object-name>beacontail</object-name>
+		<threshold>0.001</threshold>
+	</animation>
+	
+	<animation>
+		<type>blend</type>
+		<object-name>beacontail</object-name>
+		<offset>0.5</offset>
+	</animation>
+	
+<!-- strobe tail -->
+
+	<animation>
+		<name>strobetail</name>
+		<object-name>strobe_01</object-name>
+		<object-name>strobe_02</object-name>
+		<object-name>strobe_03</object-name>
+		<object-name>strobe_04</object-name>
+		<object-name>strobe_05</object-name>
+		<object-name>strobe_06</object-name>
+		<object-name>strobe_07</object-name>
+		<object-name>strobe_08</object-name>
+		<object-name>strobe_09</object-name>
+		<object-name>strobe_10</object-name>
+	</animation>
+	
+	
+	<animation>
+		<type>select</type>
+		<object-name>strobetail</object-name>
+		<condition>
+			<property>/sim/model/as332/lighting/strobe-tail1/state</property>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>material</type>
+		<object-name>strobetail</object-name>
+		<threshold>0.001</threshold>
+	</animation>
+	
+	<animation>
+		<type>blend</type>
+		<object-name>strobetail</object-name>
+		<offset>0.5</offset>
+	</animation>
+
+
+	
+<!-- beacon bottom -->
+
+	<animation>
+		<name>beaconbottom</name>
+		<object-name>beacon_bottom_01</object-name>
+		<object-name>beacon_bottom_02</object-name>
+		<object-name>beacon_bottom_03</object-name>
+		<object-name>beacon_bottom_04</object-name>
+		<object-name>beacon_bottom_05</object-name>
+		<object-name>beacon_bottom_06</object-name>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<object-name>beaconbottom</object-name>
+		<condition>
+			<property>/sim/model/as332/lighting/beacon-bottom/state</property>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>material</type>
+		<object-name>beaconbottom</object-name>
+		<threshold>0.001</threshold>
+	</animation>
+	
+	<animation>
+		<type>blend</type>
+		<object-name>beaconbottom</object-name>
+		<offset>0.5</offset>
+	</animation>
+	
+<!-- navlights -->
+
+	<animation>
+		<name>nav_lights</name>
+		<object-name>navlight_r01</object-name>
+		<object-name>navlight_r02</object-name>
+		<object-name>navlight_r03</object-name>
+		<object-name>navlight_r04</object-name>
+		<object-name>navlight_r05</object-name>
+		<object-name>navlight_r06</object-name>
+		<object-name>navlight_l01</object-name>
+		<object-name>navlight_l02</object-name>
+		<object-name>navlight_l03</object-name>
+		<object-name>navlight_l04</object-name>
+		<object-name>navlight_l05</object-name>
+		<object-name>navlight_l06</object-name>
+	</animation>
+	
+	<animation>
+		<type>select</type>
+		<object-name>nav_lights</object-name>
+		<condition>
+			<property>/sim/model/as332/lighting/nav-lights</property>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>material</type>
+		<object-name>nav_lights</object-name>
+		<threshold>0.001</threshold>
+	</animation>
+	
+
+<!--== material ==-->
+
+
+
+<!--== pilot ==-->
+
+
+
+<!-- Instruments -->
+
+	<model>
+		<name>ASI</name>
+		<path>Aircraft/as332/Instruments/asi/as332_asi.xml</path>
+		<offsets>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>0</z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<name>Tach</name>
+		<path>Aircraft/as332/Instruments/tach/as332_tach.xml</path>
+		<offsets>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>0</z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<name>VSI</name>
+		<path>Aircraft/as332/Instruments/vsi/as332_vsi.xml</path>
+		<offsets>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>0</z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<name>ALT</name>
+		<path>Aircraft/as332/Instruments/alt/as332_alt.xml</path>
+		<offsets>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>0</z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<name>Clock</name>
+		<path>Aircraft/as332/Instruments/clock/as332_clock.xml</path>
+		<offsets>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>0</z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<name>AI</name>
+		<path>Aircraft/as332/Instruments/ai/as332_ai.xml</path>
+		<offsets>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>0</z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<name>HSI</name>
+		<path>Aircraft/as332/Instruments/hsi/hsi.xml</path>
+		<offsets>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>0</z-m>
+		</offsets>
+	</model>
+
+	
+</PropertyList>
+
+
+
